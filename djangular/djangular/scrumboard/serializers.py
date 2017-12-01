@@ -4,7 +4,9 @@ from .models import List, Card
 class ListSerializer(serializers.ModelSerializer):
     class Meta:
         model = List
+        fields = "__all__"
 
 class CardSerializar(serializers.ModelSerializer):
     class Meta:
         model = Card
+        fields = "__all__"
