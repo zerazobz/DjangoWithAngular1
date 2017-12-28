@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/djangular.iml" filepath="$PROJECT_DIR$/.idea/djangular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/djangularsite.iml" filepath="$PROJECT_DIR$/.idea/djangularsite.iml" />
     </modules>
   </component>
 </project>

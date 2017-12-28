@@ -1,6 +1,5 @@
 from rest_framework.generics import ListAPIView
-
-from .serializers import ListSerializer, CardSerializar
+from .serializers import ListSerializer, CardSerializer
 from .models import List, Card
 
 class ListApi(ListAPIView):
@@ -9,4 +8,4 @@ class ListApi(ListAPIView):
 
 class CardApi(ListAPIView):
     queryset = Card.objects.all()
-    serializer_class = CardSerializar
+    serializer_class = CardSerializer
