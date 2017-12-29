@@ -28,9 +28,12 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scrumboard/templates/scrumboard/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="226">
+              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <element signature="e#900#1375#0#HTML" expanded="false" />
+                <element signature="e#1397#1756#0#HTML" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -598,9 +601,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrumboard/templates/scrumboard/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="226">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#900#1375#0#HTML" expanded="false" />
+            <element signature="e#1397#1756#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
