@@ -1,3 +1,5 @@
+{% load staticfiles %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,50 +14,13 @@
                 <ul>
                     <li ng-repeat="card in list.cards">{{ card.title }}</li>
                 </ul>
+                <input type="text" ng-model="new_title">
+                <button ng-click="add(list, new_title)">+</button>
             </div>
         </div>
     {% endverbatim %}
 
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js" type="text/javascript"></script>
-    <script>
-        (function() {
-            'use strict';
-            angular.module('scrumboard.demo', [])
-                .controller('ScrumboardController', ['$scope', ScrumboardController]);
-
-            function ScrumboardController($scope) {
-                $scope.data = [
-                    {
-                        name: "Django demo",
-                        cards: [
-                            {
-                                title: "Create Models"
-                            },
-                            {
-                                title: "Create View"
-                            },
-                            {
-                                title: "Migrate Database"
-                            }
-                        ]
-                    },
-                    {
-                        name: "Angular demo",
-                        cards: [
-                            {
-                                title: "Write HTML"
-                            },
-                            {
-                                title: "Write Javascript"
-                            }
-                        ]
-                    }
-                ];
-            }
-
-        })();
-    </script>
+    <script src="{% static "scrumboard/scrumboard.js" %}"></script>
     </body>
 </html>
